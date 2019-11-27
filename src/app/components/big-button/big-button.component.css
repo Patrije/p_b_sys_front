@@ -1,0 +1,32 @@
+.big-button{
+    width:300px;
+    border: 2px solid gray;
+    border-radius: 4px;
+    background-color: rgba(30, 12, 15, 0.2);
+    padding: 4px;
+    font-size: 16px;
+    font-weight: bold;
+    display: flex;
+    justify-items: center;
+    align-items: center;
+    justify-content: center;
+    margin: 5px;
+}
+
+.big-button:hover{
+    cursor: pointer;
+}
+
+.big-button:active{
+    border: 2px solid black;
+}
+
+.title{
+  display: flex;
+  justify-content: center;
+}
+
+.details{
+   display: flex;
+   justify-content: center;
+}

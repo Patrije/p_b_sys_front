@@ -1,0 +1,2 @@
+<div class="account-list"><app-big-button *ngFor="let account of accounts" [account]="account"></app-big-button>
+    <app-new-transfer (addTransfer)="addTransfer($event)"></app-new-transfer></div>

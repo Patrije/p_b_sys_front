@@ -1,0 +1,11 @@
+.top-bar-item{
+    margin: 5px;
+    font-weight: normal;
+    font-size: 16px;
+    font-family:'Times New Roman', Times, serif;
+}
+
+.top-bar-item:hover{
+    border:1px solid gray;
+    background-color: aqua;
+}

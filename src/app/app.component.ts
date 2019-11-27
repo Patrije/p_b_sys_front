@@ -1,4 +1,9 @@
-import { Component } from '@angular/core';
+import { Component, OnInit } from '@angular/core';
+import { AccountServiceService } from './services/account-service.service';
+import { Account } from './models/Account';
+import { NgbModal } from '@ng-bootstrap/ng-bootstrap';
+import { TransferModalComponent } from './components/transfer-modal/transfer-modal.component';
+import { Router } from '@angular/router';
 
 @Component({
   selector: 'app-root',
@@ -6,5 +11,12 @@ import { Component } from '@angular/core';
   styleUrls: ['./app.component.css']
 })
 export class AppComponent {
-  title = 'TodoAppWeb';
+
+   router: string;
+
+  constructor(private _router: Router){
+
+          this.router = _router.url; 
+    }
+
 }
